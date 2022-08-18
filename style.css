@@ -10,6 +10,6 @@
     @apply mt-3 px-3 font-serif text-lg font-bold uppercase text-blue-700;
   }
   h3 {
-    @apply ml-2 px-3 font-serif font-bold uppercase text-blue-700;
+    @apply mt-3 ml-2 px-3 font-serif font-bold uppercase text-blue-700;
   }
 }
