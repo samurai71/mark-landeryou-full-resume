@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply mt-3 px-3 text-center font-serif text-6xl font-bold text-slate-50 underline;
+  }
+  h2 {
+    @apply mt-3 px-3 font-serif text-lg font-bold uppercase text-blue-700;
+  }
+  h3 {
+    @apply mt-3 ml-2 px-3 font-serif font-bold uppercase text-blue-700;
+  }
+}
