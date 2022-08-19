@@ -13,6 +13,14 @@
     <title>Mark Landeryou's Resume from Sarnia Ontario Canada</title>
   </head>
   <body class="bg-slate-100">
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+      class="print:hidden"
+    >
+      Top
+    </button>
     <!-- TODO create a nav and mobile nav -->
     <p class="print:hidden">Nav goes here</p>
     <main>
@@ -218,5 +226,31 @@
       <p class="text-center text-slate-200">&copy; All rights reserved. 2022</p>
     </footer>
     <script type="module" src="/main.js"></script>
+    <script>
+      //Get the button:
+      mybutton = document.getElementById('myBtn');
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = 'block';
+        } else {
+          mybutton.style.display = 'none';
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
   </body>
 </html>
