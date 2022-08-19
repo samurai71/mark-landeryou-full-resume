@@ -7,10 +7,10 @@
     @apply mt-3 px-3 text-center font-serif text-4xl font-bold text-slate-50 underline md:text-6xl;
   }
   h2 {
-    @apply mt-3 px-3 font-serif text-lg font-bold uppercase text-blue-700;
+    @apply mt-3 mb-3 px-3 font-serif text-lg font-bold uppercase text-blue-700 md:mb-0;
   }
   h3 {
-    @apply mt-3 ml-2 px-3 font-serif font-bold uppercase text-blue-700;
+    @apply mt-3 ml-2 mb-3 px-3 font-serif font-bold uppercase text-blue-700 md:mb-0;
   }
 }
 
