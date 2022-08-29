@@ -6,6 +6,7 @@ console.log('Hello World');
 // function copyright() {
 //   console.log('Copyright has loaded');
 // }
+
 console.log('Copyright Date has loaded');
 const copyrightDate = new Date();
 let year = copyrightDate.getFullYear();
